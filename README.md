@@ -1,1 +1,1 @@
-# excalibur-template-repo
+# Excalibur TypeScript & Parcel template
