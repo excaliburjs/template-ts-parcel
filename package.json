@@ -35,7 +35,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,ts,css,scss,md}": "prettier --write"
   },
   "dependencies": {
     "excalibur": "^0.24.3"
