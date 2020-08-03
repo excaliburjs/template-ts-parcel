@@ -1,0 +1,43 @@
+{
+  "name": "template-ts-parcel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "parcel index.html --no-autoinstall",
+    "typecheck": "tsc -p . --noEmit",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/excaliburjs/template-ts-parcel.git"
+  },
+  "author": "",
+  "license": "BSD-2",
+  "bugs": {
+    "url": "https://github.com/excaliburjs/template-ts-parcel/issues"
+  },
+  "homepage": "https://github.com/excaliburjs/template-ts-parcel#readme",
+  "assetsPath": "static/",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-asset-copier": "^1.1.0",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "excalibur": "^0.24.3"
+  }
+}

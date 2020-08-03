@@ -1,0 +1,1 @@
+Add static files you want to be deployed as loadable assets such as textures, sounds, etc.
