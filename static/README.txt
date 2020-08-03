@@ -1,1 +1,1 @@
-Add static files you want to be deployed as loadable assets such as textures, sounds, etc.
+Add static files you want to be deployed as loadable assets such as textures, sounds, etc. The files will be available at the URL with an absolute path starting with the folder name. For example, adding into this folder a file with the path `mp3/background.mp3` will be available on the server with a URL of `/mp3/background.mp3`.
