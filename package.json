@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "parcel index.html --no-autoinstall",
+    "test": "npm run build && node ./test/test.js",
     "typecheck": "tsc -p . --noEmit",
     "build": "parcel build index.html"
   },
@@ -27,7 +28,11 @@
     "parcel-plugin-asset-copier": "^1.1.0",
     "prettier": "^2.0.5",
     "sass": "^1.26.10",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "node-static": "0.7.11",
+    "pixelmatch": "5.2.1",
+    "pngjs": "6.0.0",
+    "puppeteer": "5.5.0"
   },
   "husky": {
     "hooks": {
