@@ -1,3 +1,7 @@
+⚠️ This repo is obsolete, please use the parcel v2 repo instead!
+https://github.com/excaliburjs/template-ts-parcel-v2
+
+
 # Excalibur TypeScript & Parcel template
 
 ## Getting Started
